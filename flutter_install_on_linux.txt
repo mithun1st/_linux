@@ -1,0 +1,27 @@
+Download the latest stable release of the Flutter SDK And Extract
+
+
+(edit 'home/.bashrc' file with added in the last line)
+export PATH="$PATH:/home/mithun1st/sdk-file/Flutter/flutter_linux_2.5.3-stable/flutter/bin"
+
+reboot
+
+which flutter
+
+
+flutter doctor 
+
+
+flutter config --android-sdk /home/mithun1st/sdk-file/Android/Sdk
+
+
+flutter doctor
+
+
+(install "Android SDK Command-line Tools (latest)" on android studio)
+
+flutter doctor --android-licenses
+
+
+add Flutter extention on VScode
+

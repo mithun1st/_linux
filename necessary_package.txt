@@ -1,0 +1,19 @@
+sudo dnf install \
+https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+gnome-tweaks		-Customize Gnome
+htop			-System Monitor
+uget			-Download Manager
+transmission		-Torret Manager
+microsoft-edge-dev	-Browser
+neofetch		-Info Of Device
+speedtest-cli		-Internet speed text
+gtkstresstesting	-Computer info
+sqlitebrowser		-database sqlite
+goldendict		-Dictionary
+notejot			-Sticky Note
+vlc			-Media Player
+
+
+
+

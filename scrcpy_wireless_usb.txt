@@ -1,0 +1,7 @@
+//connect phone cable 
+adb devices
+adb tcpip 5555
+adb connect ip:5555
+adb devices
+//unplug phone
+scrcpy

@@ -1,0 +1,53 @@
+sudo dmidecode
+swapon
+lsmem
+lsblk
+lscpu
+tree
+
+
+systemctl status
+top
+netstat
+
+who
+ls
+uname -a
+top
+df
+free -m
+man
+uptime
+
+sudo fdisk -l
+
+
+sudo dnf update
+sudo dnf search calculator1
+sudo dnf install htop2
+sudo dnf remove htop2
+dnf list installed
+dnf list installed | grep htop2
+dnf deplist htop2
+dnf info htop2
+
+
+xdg-open file1.jpg.pdf.etc
+java -jar file1.jar
+
+
+zip -r compress.zip -P abcd1234 file1/
+unzip compress.zip
+
+
+shutdown +2
+shutdown -c
+shutdown --poweroff
+shutdown --reboot
+shutdown now
+
+sudo gedit /etc/default/grub
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo grub2-install /dev/sda
+
+

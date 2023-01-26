@@ -1,0 +1,12 @@
+ 
+ 
+ >>sudo gedit /usr/share/X11/xkb/symbols/us 
+
+ //find this function-	xkb_symbols "basic" 
+ //then add the (given bellow) line into that function
+ 
+ 
+ modifier_map Mod3   { Scroll_Lock };
+ 
+ 
+ >>reboot
